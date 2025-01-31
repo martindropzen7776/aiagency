@@ -108,11 +108,15 @@ function App() {
               <button className="group bg-white text-gray-900 px-10 py-5 rounded-2xl flex items-center gap-3 hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl w-full sm:w-auto">
                 <span className="text-lg font-semibold">Comenzar Ahora</span>
                 <ChevronRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
-              </button>
-              <button className="group px-10 py-5 text-white border-2 border-white/30 rounded-2xl hover:bg-white/10 transition-colors duration-300 flex items-center gap-3 w-full sm:w-auto">
-                <span className="text-lg font-semibold">Ver Demo</span>
+              <a 
+                href="https://tulink.com" // Reemplaza con tu enlace
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="group px-10 py-5 text-white border-2 border-white/30 rounded-2xl hover:bg-white/10 transition-colors duration-300 flex items-center gap-3 w-full sm:w-auto"
+              >
+                <span className="text-lg font-semibold">Nuestro portafolio</span>
                 <Zap className="w-6 h-6 group-hover:scale-110 transition-transform" />
-              </button>
+              </a>
             </div>
           </div>
         </div>
